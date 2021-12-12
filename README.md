@@ -21,4 +21,12 @@
 
 ### RESULTS
 
+![alt_text](https://github.com/farwaali08/Amazon_Vine_Analysis/blob/18ff916817faa07e0ce8950fafe5615d187ff6f2/Images/analysis1.png)
+
+![alt_text](https://github.com/farwaali08/Amazon_Vine_Analysis/blob/18ff916817faa07e0ce8950fafe5615d187ff6f2/Images/analysis2.png)
+
+![alt_text](https://github.com/farwaali08/Amazon_Vine_Analysis/blob/18ff916817faa07e0ce8950fafe5615d187ff6f2/Images/analysis3.png)
+
+![alt_text](https://github.com/farwaali08/Amazon_Vine_Analysis/blob/18ff916817faa07e0ce8950fafe5615d187ff6f2/Images/analysis4.png)
+
 ### SUMMARY
