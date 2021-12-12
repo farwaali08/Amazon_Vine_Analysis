@@ -34,7 +34,7 @@ As a first step, the data was filtered to select rows where the `total_votes` co
 
 ![alt_text](https://github.com/farwaali08/Amazon_Vine_Analysis/blob/18ff916817faa07e0ce8950fafe5615d187ff6f2/Images/analysis1.png)
 
-There are `74,702` reviews that meet this criteria.
+There are `74,702` reviews that meet these criteria.
 
 #### Total Number of 5-star Reviews ⭐
 
