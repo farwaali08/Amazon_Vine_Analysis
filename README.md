@@ -28,7 +28,7 @@ The analysis includes an ETL process, in which the dataset is first extracted, t
 
 ### RESULTS
 
-As a first step, the data was filtered to select rows where the `total_votes` count is greater than or equal to 20 AND where the ratio of `helpful_votes` divided by `total_votes` is greater than or equal to 50%. This was done to select reviews that are more likely to be helpful (or influential).
+As a first step, the data was filtered to select rows where the `total_votes` count is greater than or equal to 20, AND where the ratio of `helpful_votes` divided by `total_votes` is greater than or equal to 50%. This was done to select reviews that are more likely to be helpful (or influential).
 
 #### Total Number of Reviews
 
