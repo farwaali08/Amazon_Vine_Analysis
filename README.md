@@ -2,7 +2,7 @@
 
 ## OVERVIEW
 
-This project launches into the world of products reviews, with the ultimate purpose of evaluating if a bias is observed when reviewers are compensated for their feedback. The data was taken from Amazon, and includes reviews for products that fall under the "Beauty" category. Included in the dataset are reviwes from the Vine program, which provides incentives to a select group of customers in exchange for a product review. 
+This project launches into the world of products reviews, with the ultimate purpose of evaluating if a positivity bias exists when reviewers are compensated for their feedback. The data was taken from Amazon, and includes reviews for products that fall under the "Beauty" category. Included in the dataset are reviews from the Vine program, which provides incentives to a select group of customers in exchange for a product review. 
 
 The analysis includes an ETL process, in which the dataset is first extracted, transformed, connected to an AWS RDS instance, and then loaded into pgAdmin. The analysis portion was completed in Google Colab using PySpark.
 
@@ -28,14 +28,36 @@ The analysis includes an ETL process, in which the dataset is first extracted, t
 
 ### RESULTS
 
-As a first step before the analysis, the review data was 
+As a first step, the data was filtered to select rows where the `total_votes` count is greater than or equal to 20 AND where the ratio of `helpful_votes` divided by `total_votes` is greater than or equal to 50%. This was done to select reviews that are more likely to be helpful (or influential).
+
+#### Total Number of Reviews
 
 ![alt_text](https://github.com/farwaali08/Amazon_Vine_Analysis/blob/18ff916817faa07e0ce8950fafe5615d187ff6f2/Images/analysis1.png)
 
+There are `74,702` reviews that meet this criteria.
+
+#### Total Number of 5-star Reviews ⭐
+
 ![alt_text](https://github.com/farwaali08/Amazon_Vine_Analysis/blob/18ff916817faa07e0ce8950fafe5615d187ff6f2/Images/analysis2.png)
+
+Next, the total number of 5-star reviews was obtained: `43,403`.
+
+#### Vine Reviews 
 
 ![alt_text](https://github.com/farwaali08/Amazon_Vine_Analysis/blob/18ff916817faa07e0ce8950fafe5615d187ff6f2/Images/analysis3.png)
 
+* Total Number of Vine Reviews: `647`
+* Total Number of Vine Reviews with a 5-Star rating ⭐: `229`
+* Percentage of Vine Reviews with a 5-Star rating: `35.39%`
+
+#### Non-Vine Reviews 
+
 ![alt_text](https://github.com/farwaali08/Amazon_Vine_Analysis/blob/18ff916817faa07e0ce8950fafe5615d187ff6f2/Images/analysis4.png)
 
+* Total Number of Non-Vine Reviews: `74,055`
+* Total Number of Non-Vine Reviews with a 5-Star rating ⭐: `43,179`
+* Percentage of Non-Vine Reviews with a 5-Star rating: `58.31%`
+
 ### SUMMARY
+
+About `99.5%` of 5-star reviews are unpaid
