@@ -17,11 +17,10 @@ The analysis includes an ETL process, in which the dataset is first extracted, t
 * pgAdmin 4
 * AWS 
 
-### DATA
+### DATA & CODE
 
 * [Amazon Review Datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt)
 * PostgreSQL Tables [1](https://github.com/farwaali08/Amazon_Vine_Analysis/blob/0505d67f39c2e11c79a12c9888dadc70b3868a86/Images/customers_table.png), [2](https://github.com/farwaali08/Amazon_Vine_Analysis/blob/0505d67f39c2e11c79a12c9888dadc70b3868a86/Images/products_table.png), [3](https://github.com/farwaali08/Amazon_Vine_Analysis/blob/0505d67f39c2e11c79a12c9888dadc70b3868a86/Images/review_table.png), [4](https://github.com/farwaali08/Amazon_Vine_Analysis/blob/0505d67f39c2e11c79a12c9888dadc70b3868a86/Images/vine_table.png)
-* Code
 * [Amazon_Reviews_ETL.ipynb](https://github.com/farwaali08/Amazon_Vine_Analysis/blob/808f26d8e865d526ed7110dc10b0847ad9d5428c/Amazon_Reviews_ETL.ipynb)
 * [Vine_Review_Analysis.ipynb](https://github.com/farwaali08/Amazon_Vine_Analysis/blob/808f26d8e865d526ed7110dc10b0847ad9d5428c/Vine_Review_Analysis.ipynb)
 
