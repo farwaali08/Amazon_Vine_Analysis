@@ -40,7 +40,7 @@ There are `74,702` reviews that meet this criteria.
 
 ![alt_text](https://github.com/farwaali08/Amazon_Vine_Analysis/blob/18ff916817faa07e0ce8950fafe5615d187ff6f2/Images/analysis2.png)
 
-Next, the total number of 5-star reviews was obtained: `43,403`.
+Next, the total number of 5-star reviews was obtained: `43,408`.
 
 #### Vine Reviews 
 
