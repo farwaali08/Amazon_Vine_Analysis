@@ -48,7 +48,7 @@ Next, the total number of 5-star reviews was obtained: `43,408`.
 
 * Total Number of Vine Reviews: `647`
 * Total Number of Vine Reviews with a 5-Star rating ⭐: `229`
-* Percentage of Vine Reviews with a 5-Star rating: `35.39%`
+* Percentage of Vine Reviews with a 5-Star rating ⭐: `35.39%`
 
 #### Non-Vine Reviews 
 
@@ -56,7 +56,7 @@ Next, the total number of 5-star reviews was obtained: `43,408`.
 
 * Total Number of Non-Vine Reviews: `74,055`
 * Total Number of Non-Vine Reviews with a 5-Star rating ⭐: `43,179`
-* Percentage of Non-Vine Reviews with a 5-Star rating: `58.31%`
+* Percentage of Non-Vine Reviews with a 5-Star rating ⭐: `58.31%`
 
 ### SUMMARY
 
