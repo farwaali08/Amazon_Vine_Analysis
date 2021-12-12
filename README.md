@@ -60,4 +60,6 @@ Next, the total number of 5-star reviews was obtained: `43,408`.
 
 ### SUMMARY
 
-About `99.5%` of 5-star reviews are unpaid
+About `35%` of Vine reviews were 5 stars, which, while being a fair margin, is considerably lower than the ratio for the non-Vine reviews, at approximately `58%`. Additionally, roughly `99.5%` of all reviews with a 5-star rating can be attributed to non-Vine reviewers, which suggests that a positivity bias towards reviews in the Vine program does **not** exist. The data suggests that Vine reviewers may actually be more critical in their feedback than their counterparts.
+
+For further review, it would be interesting to conduct a meta-analysis across the different product sub-categories. The "Beauty" category in itself encompasses thousands of different products and brands, which explains the large number of total reviews. Interestingly, only `0.9%` of all Beauty reviews came from the Vine program, and it would be helpful to see how the reviews are distributed amongst the different product categories. It would also be helpful to produce a list of products that are reviewed by both Vine and non-Vine reviewers, and determine an average Vine and non-Vine rating for each product.
